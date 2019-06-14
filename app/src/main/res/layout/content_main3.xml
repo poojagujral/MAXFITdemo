@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main3Activity"
+    tools:showIn="@layout/app_bar_main3">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dashboard" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="134dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="235dp"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:text="Today's Workout"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="134dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="235dp"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:text="All Time Stats"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="134dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="410dp"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:text="Workout Programs"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="134dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="410dp"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:text="Personalized Diet"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+</RelativeLayout>
